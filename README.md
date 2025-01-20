@@ -7,6 +7,9 @@ Right now, this is pretty barebones. If there's more fancy stuff I want to add i
 I'll do it here.
 - JavaScript Syntax Highlighting in `clientside_callback`s. See the [blog post](https://www.connorduncan.xyz/blog/dash-clientside-treesitter.html).
 
+## Dependencies
+`nvim-dash` requires [`nvim-treesitter`](https://github.com/nvim-treesitter/nvim-treesitter) with `python` support.
+You can install it with `:TSInstall python`.
 
 ## Installation
 `nvim-dash` only supports `lazy.nvim` and doing it yourself. It will probably work with other package managers,
