@@ -3,9 +3,9 @@ Simple tweaks for your neovim configuration that make the experience of
 working on [Dash](https://github.com/plotly/dash) apps a little more enjoyable.
 
 ## Features
-Right now, this is pretty barebones. If there's more fancy stuff I want to add in the future,
-I'll do it here.
 - JavaScript Syntax Highlighting in `clientside_callback`s. See the [blog post](https://www.connorduncan.xyz/blog/dash-clientside-treesitter.html).
+- 
+- JavaScript Syntax Highlighting in dicts where they key is `function`.
 
 ## Dependencies
 `nvim-dash` requires [`nvim-treesitter`](https://github.com/nvim-treesitter/nvim-treesitter) with `python` support.
